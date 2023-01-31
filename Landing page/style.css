@@ -1,0 +1,75 @@
+:root {
+    --main-bg-color: #2785a2;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+footer
+{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+}
+main{
+    height: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+    padding: 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btag{
+    background-color: white;
+    color: #2785a2;
+    padding: 7px 30px;
+    margin-left: 80px;
+}
+.searchbar{
+    width: 200px;
+    height: 33px;
+    margin-top: 27px;
+}
+.more{
+    background-color: white;
+    color: black;
+    width: 20px;
+    margin-top: 6px;
+}
+.drop{
+    background-color: #2785a2;
+    color: white;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:center;
+    align-content: flex-start;
+}
+.range{
+    height: 20rem;
+    width: 40%;
+    margin-left: 5rem;
+}
+.rdetails{
+    height: 20rem;
+    width: 55%;
+}
